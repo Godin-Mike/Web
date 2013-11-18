@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Mgodin</title>
+
+<link rel="icon" href="Icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="Icon.ico" type="image/x-icon">
+
+<script type="text/javascript" src="Scripts/jquery.js"></script>
+
+<script type="text/javascript" src="Scripts/interface.js"></script>
+
+<script type="text/javascript" src="Scripts/fisheye_patched.js"></script>
+
+<script src="Scripts/jquery.jparallax.js" type="text/javascript"><!--mce:2--></script>
+
+
+
+<script type="text/javascript" src="Scripts/jquery-ui-1.7.2.custom.min.js"></script>
+
+		
+
+	
+
+
+
+
+
+<!--[if lt IE 7]>
+
+ <style type="text/css">
+
+ .dock img { behavior: url(iepngfix.htc) }
+
+ </style>
+
+<![endif]-->
+
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="wrapper">
+
+<div id="header">
+
+<a href="index.php"><img  src="images/1d.png" alt=""/></a>
+<div id="avatar"><img  src="images/avatar.png" alt="" />
+</div>
+<div id="parallax"> 
+
+	<div style="width:600px; height:400px;	">
+<img  src="images/abtott.png" alt="" id="layer"/>
+	</div>
+    
+	<div style="width:600px; height:400px; ">
+<img  src="images/abtweb.png" id="layer" />
+	</div>
+    
+	<div style="width:600px; height:400px;	">
+
+<img  src="images/abthck.png"  id="layer" />
+
+</div>
+
+<div style="width:600px; height:400px;	">
+
+<img  src="images/abtgam.png"  id="layer" />
+
+</div>
+
+</div>
+<hr/>
+</div>
+
+
+<div id="abt">
+
+ <p>Hello,</p>
+
+
+<p>My name is Michael Godin. I am currently finishing my studies in Interactive Multimedia at Algonquin College. From my program I have learnt valuable skills in the media world. I've taken Courses in:
+</p>
+<ul>
+  <li>Audio/Video (shot in Full HD,  Editing ,Sound Editing)</li>
+  <li>Photography (Skills: Use of a  Digital SLR for optimum picture quality and Editing)</li>
+  <li>Web (HTML, CSS, PHP, AJAX, JQUERY, Javascript)</li>
+  <li>Design (Adobe Illustrator, Photoshop, InDesign)</li>
+  <li>Motion Graphics (Flash, Director)</li>
+  <li>3D (Maya)</li>
+</ul>
+
+        <p>My work experience includes working for the Office of the Auditor General as a student managing the INTRAnet, formatting documents, and dealing with client questions. I have also been working on my own personal portfolio and a number of webpages for client based webpages in school.</p>
+        <p>Currently I am working on some projects with private clients. Soon I will be able to provide more examples of my work.  However, it’s important to note that with each webpage I build I work closely with my clients to help achieve a webpage that best reflects them. </p>
+        
+        <h4>Thanks for visiting and please don’t hesitate about contacting me about your next webpage for a quote.</h4>
+        <p>Sincerely </p>
+
+<p>Michael Godin</p>
+<p>Web Developer
+ </p>
+
+      
+</div>
+
+
+
+
+<div class="dock" id="dock2">
+
+  <div class="dock-container2">
+
+  <a class="dock-item2" href="index.php"><span>Home</span><img src="images/home.png" alt="home" /></a> 
+
+    <a class="dock-item2" href="about.html"><span>About</span><img src="images/Mike.png" alt="About" /></a> 
+
+  <a class="dock-item2" href="code.html"><span>Work</span><img src="images/code.png" alt="work" /></a> 
+
+  <a class="dock-item2" href="gallery.php"><span>Gallery</span><img src="images/snap.png" alt="gallery" /></a> 
+
+  <a class="dock-item2"  target="_blank" href="http://www.facebook.com/profile.php?v=wall&id=100000209760547"><span>Facebook</span><img src="images/faceB.png" alt="facebook" /></a> 
+
+  <a class="dock-item2"  target="_blank" href="http://www.twitter.com/mikegodin"><span>Twitter</span><img src="images/twitter.png" alt="twitter" /></a> 
+    <a class="dock-item2" target="_blank" href="http://ca.linkedin.com/pub/mike-godin/19/45b/3b7"><span>Linked In</span><img src="images/linkin.png" alt="Linked In" /></a>  
+
+  <a class="dock-item2" target="_blank" href="http://www.flickr.com/photos/mgodin/"><span>Flickr</span><img src="images/flickr.png" alt="Flickr" /></a> 
+
+  <a class="dock-item2" href="#"><span>RSS</span><img src="images/Newsfeed RSS.png" alt="rss" /></a> 
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--dock menu JS options -->
+
+<script type="text/javascript">
+
+	
+
+	$(document).ready(
+
+		function()
+
+		{
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 60,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 40,
+					proximity: 80,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+
+				
+	
+
+	$('#parallax').jparallax(	
+
+
+						{xtravel: '15%', ytravel: '20%',yorigin:0,xorigin:0},
+
+						{xtravel: '30%', ytravel: '30%',yorigin:.5,xorigin:0},
+
+						{xtravel:  '20%', ytravel: '10%',yorigin:.5,xorigin:-.1},
+						
+						{frameDuration:40}
+
+						);
+
+			
+
+		}
+
+		
+
+	);
+
+
+
+</script>
+<div id="footer">
+
+<p>2010 Mgodin.Com</p>
+
+</div>
+
+  </div>
+
+
+</body>
+
+</html>
+

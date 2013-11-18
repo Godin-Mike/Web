@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Mgodin</title>
+
+<link rel="icon" href="Icon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="Icon.ico" type="image/x-icon">
+
+<title>Mike Godin-Web Developer</title>
+
+
+
+<script type="text/javascript" src="Scripts/jquery.js"></script>
+
+<script type="text/javascript" src="Scripts/interface.js"></script>
+
+<script type="text/javascript" src="Scripts/fisheye_patched.js"></script>
+
+<script src="Scripts/jquery.jparallax.js" type="text/javascript"><!--mce:2--></script>
+<script type="text/javascript" src="js/contact-pop.js"></script>
+<script type="text/javascript" src="Scripts/jquery-ui-1.7.2.custom.min.js"></script>
+
+		
+
+	
+
+
+
+
+
+<!--[if lt IE 7]>
+
+ <style type="text/css">
+
+ .dock img { behavior: url(iepngfix.htc) }
+
+ </style>
+
+<![endif]-->
+
+
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+
+<a href="index.php"><img  src="images/1d.png" alt=""/></a>
+<a href="/contact.php"><img id="cont" src="images/tab.png" /></a>
+<div id="avatar"><img  src="images/avatar.png" alt="" />
+</div>
+<div id="parallax"> 
+
+	<div style="width:600px; height:400px;	">
+<img  src="images/creatava.png" alt="" id="layer"/>
+	</div>
+    
+	<div style="width:600px; height:400px; ">
+<img  src="images/interava.png" id="layer" />
+	</div>
+    
+	<div style="width:600px; height:400px;	">
+
+<img  src="images/webava.png"  id="layer" />
+
+</div>
+
+</div>
+<hr/>
+</div>
+
+
+<div id="text">
+
+
+
+</div>
+<div id="work">
+
+  <H1>Jamie Godin—Mobile site</H1>
+<a  target="_blank" href="http://www.jamiegodin.com/mobile"> <img src="images/workg.png" width="800px" height="200px;" /></a>
+ <P>Recently updated Jamie Godin's site so he now has Mobile.</P>
+<hr/>
+  <H1>Ottawa Generator</H1>
+ <a   target="_blank" href="http://www.mgodin.com/rob"><img src="images/ghead.png"width="800px" height="200px;" /></a>
+ <P>This is another site I build for a friend. Wanted to show of the front page.</P>
+<hr/>
+  <H1>Healthy Living CMS</H1>
+ <a  target="_blank" href="healthy/cms/"><img src="images/workf.png" width="800px" height="200px;" /></a>
+ <P>This is the CMS version of the Healthy Living site I built. It has Log in features and easily updated content and pictures..</P>
+</div>
+
+        
+
+      
+
+
+
+
+
+<div class="dock" id="dock2">
+
+  <div class="dock-container2">
+
+  <a class="dock-item2" href="index.php"><span>Home</span><img src="images/home.png" alt="home" /></a> 
+
+    <a class="dock-item2" href="about.html"><span>About</span><img src="images/Mike.png" alt="About" /></a> 
+
+  <a class="dock-item2" href="code.html"><span>Work</span><img src="images/code.png" alt="work" /></a> 
+
+  <a class="dock-item2" href="gallery.php"><span>Gallery</span><img src="images/snap.png" alt="gallery" /></a> 
+
+  <a class="dock-item2"  target="_blank" href="http://www.facebook.com/profile.php?v=wall&id=100000209760547"><span>Facebook</span><img src="images/faceB.png" alt="facebook" /></a> 
+
+  <a class="dock-item2"  target="_blank" href="http://www.twitter.com/mikegodin"><span>Twitter</span><img src="images/twitter.png" alt="twitter" /></a>  
+  
+    <a class="dock-item2" target="_blank" href="http://ca.linkedin.com/pub/mike-godin/19/45b/3b7"><span>Linked In</span><img src="images/linkin.png" alt="Linked In" /></a>  
+
+  <a class="dock-item2"  target="_blank" href="http://www.flickr.com/photos/mgodin/"><span>Flickr</span><img src="images/flickr.png" alt="Flickr" /></a>
+
+  <a class="dock-item2" href="#"><span>RSS</span><img src="images/Newsfeed RSS.png" alt="rss" /></a> 
+
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--dock menu JS options -->
+
+<script type="text/javascript">
+
+	
+
+	$(document).ready(
+
+		function()
+
+		{
+			$('#dock2').Fisheye(
+				{
+					maxWidth: 60,
+					items: 'a',
+					itemsText: 'span',
+					container: '.dock-container2',
+					itemWidth: 40,
+					proximity: 80,
+					alignment : 'left',
+					valign: 'bottom',
+					halign : 'center'
+				}
+			)
+
+				
+	
+
+			$('#parallax').jparallax(	
+
+
+						{xtravel: '15%', ytravel: '20%',yorigin:0,xorigin:0},
+
+						{xtravel: '30%', ytravel: '30%',yorigin:.5,xorigin:0},
+
+						{xtravel:  '20%', ytravel: '10%',yorigin:.5,xorigin:-.1},
+						
+						{frameDuration:40}
+
+						);
+
+			
+
+		}
+
+		
+
+	);
+
+
+
+</script>
+<div id="footer">
+
+<p>2010 Mgodin.Com</p>
+
+</div>
+
+  </div>
+
+
+</body>
+
+</html>
+
+

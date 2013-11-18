@@ -1,0 +1,371 @@
+*{
+	/* A universal CSS reset */
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#000;
+}
+#body{
+	color:#CCC;
+	background:#666 no-repeat;
+	width:1080px;
+	margin:0 auto;
+	
+	/* CSS3 Radial Gradients */
+	background-image:-moz-radial-gradient(45px 45px 45deg, circle cover, #999 100px, #666 740px);
+	background-image:-webkit-gradient(radial, 20% 0, 150, 20% 0, 300, from(#444), to(#111));
+	
+	
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#navigationMenu li{
+	list-style: none;
+	display:inline-block;
+	margin-top:225px;
+	height:107px;
+	width:155px;
+	
+}
+
+
+#navigationMenu a{
+	background:url('img/navigation.png') no-repeat;
+
+	height:107px;
+	width:145px;
+	display:block;
+	
+}
+
+/* General hover styles */
+
+#navigationMenu a:hover span{ width:auto; padding:0 1px;overflow:visible; }
+#navigationMenu a:hover{
+	text-decoration:none;
+	
+	/* CSS outer glow with the box-shadow property */
+
+}
+
+/* Green Button */
+
+#navigationMenu .home {	background-position:0 0; margin-left:40px;}
+#navigationMenu .home:hover {	background-position:0 -106px;}
+#navigationMenu .home span{
+	background-color:#1e8bb4;
+	color:#1e8bb4;
+	text-shadow:1px 1px 0 #99bf31;
+}
+
+/* Blue Button */
+
+#navigationMenu .about { background-position:-146px 0; margin-left:40px;}
+#navigationMenu .about:hover { background-position:-146px -106px;}
+#navigationMenu .about span{
+	background-color:#1e8bb4;
+	color:#223a44;
+	text-shadow:1px 1px 0 #44a8d0;
+}
+
+
+/* Yellow Button */
+
+#navigationMenu .portfolio { background-position:-292px 0; margin-left:40px;}
+#navigationMenu .portfolio:hover{ background-position:-292px -106px;}
+#navigationMenu .portfolio span{
+	background-color:#d0a525;
+	color:#604e18;
+	text-shadow:1px 1px 0 #d8b54b;
+}
+
+
+
+
+#navava{
+	background-image:url(img/avatar-body.png);
+	background-repeat:repeat-y;
+	float:right;
+	width:140px;
+	height:300px;
+	margin-top:20px;
+	
+}
+#logo{
+	background-image:url(img/1d.png);
+	background-repeat:repeat-y;
+	width:380px;
+	height:300px;
+	float:left;
+	padding-right:50px;
+	margin-top:40px;
+	
+}
+
+a, a:visited,a:active {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+   
+div.ui-tabs .ui-tabs-hide {
+     	display: none;
+	}
+	
+#tabs{
+	clear:both;
+	margin-left:20px;}
+			
+			
+	div#body ul#tabNavigation li {
+		list-style: none;
+		display:inline;
+		 float:left;
+		 margin-top:20px;
+		}
+	
+	#tabNavigation li a {
+		display:block;		
+       height:30px; 
+       background:transparent url(images/images/nav2.png);
+		}
+		
+	#tabNavigation li#newsItem01 a{
+  	  width:185px;
+	  margin-left:-10px;
+ 	  background-position: 0px 0px;
+  	 }
+	#tabNavigation li#newsItem01 a:hover {
+     background-position: 0px -32px;
+      }
+	  #tabNavigation li#newsItem01 li a.active {
+     background-position: 0px -32px;
+      }
+		
+	#tabNavigation li#newsItem02 a{
+  	  width:188px;
+ 	  background-position:-185px 0px;
+  	 }
+	#tabNavigation li#newsItem02 a:hover {
+     background-position: -185px -32px;
+      }
+	    #tabNavigation li#newsItem02 li a.active {
+     background-position: -185px -32px;
+      }
+		
+	#tabNavigation li#newsItem03 a{
+  	  width:185px;
+ 	  background-position: -375px 0px;
+  	 }
+	#tabNavigation li#newsItem03 a:hover {
+     background-position: -375px -32px;
+      }
+	    #tabNavigation li#newsItem03 li a.active {
+     background-position: -375px -32px;
+      }
+		
+	#tabNavigation li#newsItem04 a{
+  	  width:184px;
+ 	  background-position: -555px 0px;
+  	 }
+	#tabNavigation li#newsItem04 a:hover {
+     background-position: -555px -32px;
+      }
+	    #tabNavigation li#newsItem04 li a.active {
+     background-position: -555px -32px;
+      }
+
+		
+	#tabNavigation li#newsItem05 a{
+  	  width:185px;
+ 	  background-position: -730px 0px; 
+  	 }
+	#tabNavigation li#newsItem05 a:hover {
+     background-position: -730px -32px;
+      }	
+  #tabNavigation li#newsItem05 li a.active {
+     background-position: -730px -32px;
+      }
+	div#body div.tabContent {
+		width: 996px;
+		
+		}
+		
+	div#body div.tabContent p {
+		padding-left:731px;
+		margin-top:-369px;
+		width: 180px;
+		height:350px;
+		font-size: 1.2em;
+		color:#FFF;
+		}
+		
+	div#body div.tabContent p strong {
+		width: 250px;
+		font:Verdana, Geneva, sans-serif;
+		font-size:1.5em;
+		color:#0c92c4;
+		}
+		
+		
+	div#body div.tabContent p a {
+		color: #0c92c4;
+		text-decoration: none;
+		width: 250px;
+		font-size: 1.4em;
+		}
+		
+	div#body div.tabContent p a:hover {
+		text-decoration: underline;
+		}
+		
+#footer{
+	clear:both;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:1.2em;
+	color:#000;
+	background-color:#666;
+	margin-top:100px;
+	height:200px;
+	
+}
+#footer p{
+	margin-top:170px;
+	margin-left:850px;
+	}
+#footer hr{
+		width:1080px;
+		background-color:#999;
+		height:5px;
+		color:#999;}
+		
+		#follow li{
+			display:inline;
+			
+		}
+
+
+	#contact-pop-overlay {
+    width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: url('../img/overlay.png') repeat 0 0;
+    display: none;
+    text-align: center;
+    z-index: 1000;
+}
+
+#contact-pop-panel-wrapper {
+    margin: 10% auto 0 auto;
+    width: 350px;
+    background: #FFF;
+}
+
+#contact-pop-panel {
+    min-height: 200px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact-pop-header {
+    min-height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background-color: #777;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+
+#contact-pop-header .close-overlay {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background: url('../img/close-overlay.png') no-repeat 1px 1px;
+    overflow: hidden;
+    text-indent: -2000px;
+    outline: none;
+}
+
+#contact-pop-form {
+}
+
+#contact-pop-panel .formItem {
+    margin: 7px 20px 7px 20px;
+    text-align: left;
+}
+
+#contact-pop-error {
+    color: red;
+    padding-bottom: 10px;
+    font-size: 80%;
+}
+
+#contact-pop-panel label {
+    padding: 0 10px 0 0;
+    margin: 0;
+    display: inline;
+}
+
+#contact-pop-panel .inputText {
+    width: 200px;
+    padding: 2px 5px;
+}
+
+#contact-pop-panel textarea {
+    width: 300px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#contact-pop-panel .close-overlay {
+    font-size: 12px;
+    outline: none;
+}
+
+#contact-pop-loading-gif-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+}
+
+#contact-pop-loading-gif {
+    margin: 132px auto 0 auto;
+}
+
+
+/****** ie6 stuff ********/
+
+* html #contact-pop-overlay {
+    background-image: url('../img/overlay-ie6.png');
+    height: 100%;
+    position: absolute;
+}
+
+* html #contact-pop-panel {
+    height: 200px;
+}
+
+* html #contact-pop-header {
+    height: 30px;
+}
+
+* html #contact-pop-header .close-overlay {
+    background-image: url('../img/close-overlay-ie6.png');
+}
+img a{
+	border:none;
+	text-decoration:none;
+	outline:none;
+}
